@@ -1,0 +1,4 @@
+visit,zone,first,last,kind
+V1,A,09:24,09:50,closed
+V1,B,09:35,09:50,missing-gate
+V0,B,09:40,10:00,missing-gate

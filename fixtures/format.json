@@ -1,0 +1,75 @@
+{
+  "tables": {
+    "manifest": [
+      "visit",
+      "person",
+      "group",
+      "window",
+      "assistance",
+      "escort",
+      "meet_by",
+      "notified_until"
+    ],
+    "observations": [
+      "event",
+      "visit",
+      "person",
+      "zone",
+      "kind",
+      "time",
+      "source"
+    ],
+    "disruptions": [
+      "visit",
+      "zone",
+      "first",
+      "last",
+      "kind"
+    ],
+    "capacity": [
+      "option",
+      "from",
+      "to",
+      "normal_counters",
+      "assisted_counters",
+      "helpers",
+      "accessible_zones"
+    ],
+    "walkways": [
+      "from",
+      "to",
+      "minutes",
+      "wheelchair"
+    ],
+    "observation-cutoff": [
+      "visit",
+      "last_known"
+    ]
+  },
+  "links": [
+    [
+      "observations",
+      "person",
+      "manifest",
+      "person"
+    ],
+    [
+      "manifest",
+      "visit",
+      "observation-cutoff",
+      "visit"
+    ],
+    [
+      "disruptions",
+      "visit",
+      "observation-cutoff",
+      "visit"
+    ],
+    [
+      "manifest",
+      "escort",
+      "manifest",
+      "person"
+    ]
+  ]
+}

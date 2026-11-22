@@ -1,0 +1,10 @@
+from,to,minutes,wheelchair
+hall,A,4,true
+hall,B,3,false
+hall,C,8,true
+A,C,5,true
+A,B,3,false
+B,C,5,true
+C,meet,5,true
+B,meet,4,true
+A,meet,6,true
